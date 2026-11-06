@@ -44,7 +44,7 @@
             const inside = hands.isPointOnEntity(8, goldPanel);
 
             if(inside && !wasGoldInside){
-                model.setAttribute("src", "./magic_circle/gold.glb");
+                model.setAttribute("src", "./magic_circle/c_gold.glb");
                 circleSound.currentTime = 0;
                 
                 circleSound.play().catch(e => console.log("Audio play blocked:", e));
